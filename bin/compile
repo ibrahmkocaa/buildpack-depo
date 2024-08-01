@@ -1,3 +1,4 @@
 BUILD_DIR=$1
 
+sh update-tlmgr-latest.sh
 tlmgr install fontawesome enumitem lastpage babel-turkish
