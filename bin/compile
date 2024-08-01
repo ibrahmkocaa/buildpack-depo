@@ -1,0 +1,3 @@
+BUILD_DIR=$1
+
+tlmgr install fontawesome enumitem lastpage babel-turkish

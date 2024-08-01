@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "---
+config:
+  buildpack-version: v1.0
+"
