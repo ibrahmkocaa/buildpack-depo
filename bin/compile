@@ -1,4 +1,5 @@
 BUILD_DIR=$1
-
+wget https://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh
 sh update-tlmgr-latest.sh
-tlmgr install fontawesome enumitem lastpage babel-turkish
+tlmgr update --all
+tlmgr install comment fontawesome enumitem lastpage babel-turkish
