@@ -1,3 +1,6 @@
+BUILD_DIR=$1
+
+
 wget https://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh
 bash update-tlmgr-latest.sh
 export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
